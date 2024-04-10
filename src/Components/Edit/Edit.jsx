@@ -66,7 +66,7 @@ const Edit = () => {
     {
         e.preventDefault();
         const { name, email, age, work, add, mobile, desc } = input;
-        const res2=await fetch(`http://localhost:8003/updateuser/${id}`,{
+        const res2=await fetch(`https://cute-sombrero-duck.cyclic.app/updateuser/${id}`,{
             method:"PATCH",
             headers:{
                 "Content-Type":"application/json"

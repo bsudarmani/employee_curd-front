@@ -39,7 +39,7 @@ const Details = () => {
     }, [])
     const deleteuser=async(id)=>
     {
-      const res2=await fetch(`http://localhost:8003/deleteuser/${id}`,{
+      const res2=await fetch(`https://cute-sombrero-duck.cyclic.app/deleteuser/${id}`,{
           method:"DELETE",
           headers:
            {
