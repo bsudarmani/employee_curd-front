@@ -26,7 +26,7 @@ const Login = () => {
   //   }
   const handleClick = (e) => {
     e.preventDefault();
-    Axios.post("http://localhost:8003/login", { email, password })
+    Axios.post("https://cute-sombrero-duck.cyclic.app/login", { email, password })
       .then((result) => {
         console.log(result.data)
         if (result.data === "User successfully logged in") {

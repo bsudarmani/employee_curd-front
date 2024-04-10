@@ -17,7 +17,7 @@ const Home = () => {
 
     const getinpdata = async () => {
         try {
-            const res = await fetch("http://localhost:8003/getdata", {
+            const res = await fetch("https://cute-sombrero-duck.cyclic.app/getdata", {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json"
@@ -45,7 +45,7 @@ const Home = () => {
         getinpdata();
     }, [])
     const deleteuser = async (id) => {
-        const res2 = await fetch(`http://localhost:8003/deleteuser/${id}`, {
+        const res2 = await fetch(`https://cute-sombrero-duck.cyclic.app/deleteuser/${id}`, {
             method: "DELETE",
             headers:
             {

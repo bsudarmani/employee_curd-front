@@ -14,7 +14,7 @@ const Signup = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    Axios.post("http://localhost:8003/signup", { name, email, password })
+    Axios.post("https://cute-sombrero-duck.cyclic.app/signup", { name, email, password })
       .then((result) => {
         // setlist([...list]);
         setsign(result.data);

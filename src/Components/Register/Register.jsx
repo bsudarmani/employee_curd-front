@@ -31,7 +31,7 @@ const Register = () => {
       const { name, email, age, work, add, mobile, desc } = input;
   
       try {
-          const response = await fetch("http://localhost:8003/register", {
+          const response = await fetch("https://cute-sombrero-duck.cyclic.app/register", {
               method: "POST",
               headers: {
                   "Content-Type": "application/json"

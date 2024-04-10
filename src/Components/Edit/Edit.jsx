@@ -34,7 +34,7 @@ const Edit = () => {
     const getinpuser = async () => {
      try
        {
-        const res = await fetch(`http://localhost:8003/getuser/${id}`, {
+        const res = await fetch(`https://cute-sombrero-duck.cyclic.app/getuser/${id}`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
