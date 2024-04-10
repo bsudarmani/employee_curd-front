@@ -1,5 +1,4 @@
 import React, { useState,useEffect, useContext} from "react";
-import './Edit.css';
 import { NavLink,useParams,useNavigate} from "react-router-dom";
 import { updatedata } from "../Context/ContextProvider";
 const Edit = () => {
