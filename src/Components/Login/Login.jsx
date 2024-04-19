@@ -44,7 +44,7 @@ const Login = () => {
         } else {
           setError("You are not registered to this service ");
           alert('You are not registered to this service ')
-          navigate('/signup')
+          navigate('/')
         }
       });
   };
