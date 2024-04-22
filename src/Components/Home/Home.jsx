@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import { adddata } from '../Context/ContextProvider';
 import { updatedata } from "../Context/ContextProvider";
 import { deletedata } from "../Context/ContextProvider";
@@ -197,6 +197,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <h1 className='text-center h5'> Do you known <span className='text-success' ><Link className="link" to="https://sudarmani.netlify.app/home">Sudarmani</Link></span> <span className='text-ligh '>🤍 </span> </h1>
         </>
     )
 }

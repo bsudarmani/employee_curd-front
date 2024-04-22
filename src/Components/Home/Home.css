@@ -2,3 +2,7 @@
 {
     text-align: right;
 }
+.link{
+    color: inherit;
+    text-decoration: none;
+  }
